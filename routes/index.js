@@ -1,8 +1,10 @@
 const router = require('express').Router();
-const commentRoutes = require('./comment-routes');
-const pizzaRoutes = require('./pizza-routes');
+const apiRoutes = require('./api');
 
-router.use('/comments', commentRoutes);
-router.use('/pizzas', pizzaRoutes);
+router.use('/api', apiRoutes);
+
+router.use((req, res) => {
+    res.status(404).send('😝 404 Error!');
+  });
 
 module.exports = router;
