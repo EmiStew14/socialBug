@@ -1,5 +1,5 @@
-const { Thought } = require('../models/Thought');
-const { User } = require('../models/User');
+const Thought  = require('../models/Thought');
+const  User  = require('../models/User');
 
 const thoughtController = {
     // get all Thoughts
@@ -39,6 +39,7 @@ const thoughtController = {
     console.log(params);
     Thought.create(body)
       .then(({ _id }) => {
+        console.log(_id);
         return User.findOneAndUpdate(
           { _id: params.userId },
           { $push: { thoughts: _id } },
