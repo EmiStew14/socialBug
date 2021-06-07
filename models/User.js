@@ -15,7 +15,7 @@ const UserSchema = new Schema(
             validator: {
                 $or: [{
                 email: {
-                    $regex: /@[a-z]\.com$/ 
+                    $regex: /@[a-z]\.[a-z]$/ 
                 }
                 }]
             }
