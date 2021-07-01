@@ -25,7 +25,8 @@ A social media api  that uses a noSQL database such as MongoDB to demonstrate th
   > npm i
 
   ## Usage:
-  https://drive.google.com/file/d/1yPnQjN_VBeJBPpgU-H1qpWR1P4v6gJi0/view
+  https://drive.google.com/file/d/1TS5G7_K3rPSAuZTQj7XFSQ2_BD3xiHSQ/view
+  https://drive.google.com/file/d/1PKKx2317LVItFFP4UVcsRuqJjiGd8iD0/view
 
   ## Languages:
   * JavaScript
