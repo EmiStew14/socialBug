@@ -45,6 +45,6 @@ A social media api  that uses a noSQL database such as MongoDB to demonstrate th
   ## Questions: 
     * Name: Emily Stewart
     * Github: ( https://github.com/EmiStew14 )
-    * undefined
+    * New Fullstack developer, eager to expand my knowledge
 
   
